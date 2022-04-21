@@ -93,6 +93,7 @@ public class QuanLyDanhSach {
     }
 
     void sortDownTheoGia() { // Sắp xếp giảm dần theo giá
+        sortUpTheoGia();
         Collections.reverse(list);
     }
 
